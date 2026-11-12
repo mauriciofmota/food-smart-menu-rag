@@ -1,0 +1,5 @@
+chromadb>=0.4.22
+langchain>=0.1.0
+langchain-community>=0.0.13
+ollama>=0.1.6
+sentence-transformers>=2.3.0
