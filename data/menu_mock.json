@@ -1,0 +1,56 @@
+[
+  {
+    "id": "dish_01",
+    "restaurant": "Fit & Fresh Kitchen",
+    "name": "Grilled Chicken Breast with Sweet Potato",
+    "description": "Seasoned grilled chicken breast served with roasted sweet potato cubes and steamed broccoli. High protein, completely lactose-free and gluten-free.",
+    "price": 32.90,
+    "delivery_time_mins": 25,
+    "tags": ["high-protein", "lactose-free", "gluten-free", "healthy"]
+  },
+  {
+    "id": "dish_02",
+    "restaurant": "Green Bowl Express",
+    "name": "Egg White Omelet with Shredded Chicken",
+    "description": "Fluffy egg white omelet stuffed with seasoned shredded chicken breast, tomatoes, and herbs. Light, fast, high-protein, and dairy-free.",
+    "price": 24.90,
+    "delivery_time_mins": 20,
+    "tags": ["high-protein", "lactose-free", "low-carb", "fast-delivery"]
+  },
+  {
+    "id": "dish_03",
+    "restaurant": "Pasta & Co.",
+    "name": "Creamy Four-Cheese Fettuccine",
+    "description": "Fresh artisanal fettuccine tossed in a rich parmesan, gorgonzola, mozzarella, and provolone cream sauce.",
+    "price": 45.00,
+    "delivery_time_mins": 40,
+    "tags": ["vegetarian", "pasta", "contains-lactose", "comfort-food"]
+  },
+  {
+    "id": "dish_04",
+    "restaurant": "Burger Lab",
+    "name": "Double Smash Bacon Burger",
+    "description": "Two 100g smashed beef patties, double cheddar cheese, crispy bacon, and house smoky mayo on a brioche bun.",
+    "price": 38.50,
+    "delivery_time_mins": 30,
+    "tags": ["burger", "contains-lactose", "indulgent"]
+  },
+  {
+    "id": "dish_05",
+    "restaurant": "Plant Power",
+    "name": "Chickpea & Quinoa Power Bowl",
+    "description": "Roasted spiced chickpeas, organic tri-color quinoa, avocado slices, cherry tomatoes, and lemon-tahini dressing. 100% vegan and lactose-free.",
+    "price": 29.90,
+    "delivery_time_mins": 25,
+    "tags": ["vegan", "lactose-free", "plant-protein", "healthy"]
+  },
+  {
+    "id": "dish_06",
+    "restaurant": "Tokyo Express",
+    "name": "Salmon Poke Bowl",
+    "description": "Fresh diced salmon, sushi rice, edamame, cucumber, sesame seeds, and soy-ginger glaze. Naturally dairy-free and rich in omega-3.",
+    "price": 42.00,
+    "delivery_time_mins": 25,
+    "tags": ["high-protein", "lactose-free", "seafood", "fresh"]
+  }
+]
