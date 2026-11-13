@@ -6,7 +6,8 @@
     "description": "Seasoned grilled chicken breast served with roasted sweet potato cubes and steamed broccoli. High protein, completely lactose-free and gluten-free.",
     "price": 32.90,
     "delivery_time_mins": 25,
-    "tags": ["high-protein", "lactose-free", "gluten-free", "healthy"]
+    "tags": ["high-protein", "lactose-free", "gluten-free", "healthy"],
+    "status": "active"
   },
   {
     "id": "dish_02",
@@ -15,7 +16,8 @@
     "description": "Fluffy egg white omelet stuffed with seasoned shredded chicken breast, tomatoes, and herbs. Light, fast, high-protein, and dairy-free.",
     "price": 24.90,
     "delivery_time_mins": 20,
-    "tags": ["high-protein", "lactose-free", "low-carb", "fast-delivery"]
+    "tags": ["high-protein", "lactose-free", "low-carb", "fast-delivery"],
+    "status": "active"
   },
   {
     "id": "dish_03",
@@ -24,7 +26,8 @@
     "description": "Fresh artisanal fettuccine tossed in a rich parmesan, gorgonzola, mozzarella, and provolone cream sauce.",
     "price": 45.00,
     "delivery_time_mins": 40,
-    "tags": ["vegetarian", "pasta", "contains-lactose", "comfort-food"]
+    "tags": ["vegetarian", "pasta", "contains-lactose", "comfort-food"],
+    "status": "active"
   },
   {
     "id": "dish_04",
@@ -33,7 +36,8 @@
     "description": "Two 100g smashed beef patties, double cheddar cheese, crispy bacon, and house smoky mayo on a brioche bun.",
     "price": 38.50,
     "delivery_time_mins": 30,
-    "tags": ["burger", "contains-lactose", "indulgent"]
+    "tags": ["burger", "contains-lactose", "indulgent"],
+    "status": "active"
   },
   {
     "id": "dish_05",
@@ -42,7 +46,8 @@
     "description": "Roasted spiced chickpeas, organic tri-color quinoa, avocado slices, cherry tomatoes, and lemon-tahini dressing. 100% vegan and lactose-free.",
     "price": 29.90,
     "delivery_time_mins": 25,
-    "tags": ["vegan", "lactose-free", "plant-protein", "healthy"]
+    "tags": ["vegan", "lactose-free", "plant-protein", "healthy"],
+    "status": "active"
   },
   {
     "id": "dish_06",
@@ -51,6 +56,197 @@
     "description": "Fresh diced salmon, sushi rice, edamame, cucumber, sesame seeds, and soy-ginger glaze. Naturally dairy-free and rich in omega-3.",
     "price": 42.00,
     "delivery_time_mins": 25,
-    "tags": ["high-protein", "lactose-free", "seafood", "fresh"]
+    "tags": ["high-protein", "lactose-free", "seafood", "fresh"],
+    "status": "active"
+  },
+  {
+    "id": "dish_07",
+    "restaurant": "Trattoria Romana (CLOSED)",
+    "name": "Traditional Carbonara",
+    "description": "Spaghetti with cured pork guanciale, fresh eggs, pecorino romano cheese, and black pepper. [WARNING: Restaurant is currently closed for maintenance]",
+    "price": 48.00,
+    "delivery_time_mins": 60,
+    "tags": ["pasta", "contains-lactose", "italian", "closed"],
+    "status": "closed"
+  },
+  {
+    "id": "dish_08",
+    "restaurant": "Sweet & Joy Bakery",
+    "name": "Nutella Volcano Brownie",
+    "description": "Fudgy chocolate brownie filled with a liquid hazelnut spread core. [ALLERGEN WARNING: May contain traces of peanuts and tree nuts]",
+    "price": 18.90,
+    "delivery_time_mins": 15,
+    "tags": ["dessert", "sweet", "contains-lactose", "allergens-nuts"],
+    "status": "active"
+  },
+  {
+    "id": "dish_09",
+    "restaurant": "Dragon Wok",
+    "name": "Spicy Kung Pao Chicken",
+    "description": "Diced chicken wok-tossed with peanuts, vegetables, chili peppers, and savory soy sauce. [ALLERGEN WARNING: Contains peanuts and soy]",
+    "price": 36.00,
+    "delivery_time_mins": 35,
+    "tags": ["asian", "spicy", "contains-peanuts", "poultry"],
+    "status": "active"
+  },
+  {
+    "id": "dish_10",
+    "restaurant": "Taco Fiesta",
+    "name": "Crispy Beef Tacos (Promo)",
+    "description": "Three crunchy corn tortillas filled with seasoned ground beef, lettuce, cheese, and pico de gallo. Special promotional price today only!",
+    "price": 19.90,
+    "delivery_time_mins": 20,
+    "tags": ["mexican", "promo", "budget", "fast-delivery"],
+    "status": "active"
+  },
+  {
+    "id": "dish_11",
+    "restaurant": "Healthy Life Bar",
+    "name": "Super Green Detox Juice",
+    "description": "Cold-pressed juice made with kale, green apple, cucumber, lemon, and ginger. Refreshing and sugar-free.",
+    "price": 14.50,
+    "delivery_time_mins": 10,
+    "tags": ["beverage", "vegan", "gluten-free", "healthy"],
+    "status": "active"
+  },
+  {
+    "id": "dish_12",
+    "restaurant": "Burger Lab",
+    "name": "Truffle Mushroom Angus Burger",
+    "description": "180g Angus beef patty, Swiss cheese, sautéed wild mushrooms, and black truffle aioli on a potato bun.",
+    "price": 46.00,
+    "delivery_time_mins": 35,
+    "tags": ["burger", "gourmet", "contains-lactose", "indulgent"],
+    "status": "active"
+  },
+  {
+    "id": "dish_13",
+    "restaurant": "Tokyo Express",
+    "name": "Hot Roll Combo (32 pcs)",
+    "description": "Assorted fried salmon and white fish hot rolls stuffed with cream cheese and topped with sweet tare sauce. [HIGH CALORIE / CONTAINS LACTOSE]",
+    "price": 79.90,
+    "delivery_time_mins": 40,
+    "tags": ["sushi", "combo", "sharing", "contains-lactose"],
+    "status": "active"
+  },
+  {
+    "id": "dish_14",
+    "restaurant": "Fit & Fresh Kitchen",
+    "name": "Low-Carb Zucchini Lasagna",
+    "description": "Thin layers of zucchini substituted for pasta, filled with lean ground turkey, homemade tomato sauce, and light mozzarella.",
+    "price": 35.00,
+    "delivery_time_mins": 30,
+    "tags": ["low-carb", "gluten-free", "healthy", "poultry"],
+    "status": "active"
+  },
+  {
+    "id": "dish_15",
+    "restaurant": "Pizza House",
+    "name": "Margherita Artisanal Pizza",
+    "description": "Fermented dough, San Marzano tomato sauce, fresh mozzarella di bufala, basil leaves, and extra virgin olive oil.",
+    "price": 52.00,
+    "delivery_time_mins": 45,
+    "tags": ["pizza", "vegetarian", "contains-lactose", "italian"],
+    "status": "active"
+  },
+  {
+    "id": "dish_16",
+    "restaurant": "Sunrise Bakery",
+    "name": "Gluten-Free Almond Bread Loaf",
+    "description": "Artisanal loaf baked with almond flour, psyllium husk, and flaxseeds. Certified 100% gluten-free and dairy-free.",
+    "price": 22.00,
+    "delivery_time_mins": 15,
+    "tags": ["bakery", "gluten-free", "lactose-free", "healthy"],
+    "status": "active"
+  },
+  {
+    "id": "dish_17",
+    "restaurant": "Dragon Wok",
+    "name": "Shrimp Pad Thai",
+    "description": "Stir-fried rice noodles with succulent shrimp, bean sprouts, eggs, crushed peanuts, and tamarind sauce. [ALLERGEN WARNING: Contains shellfish, eggs, and peanuts]",
+    "price": 44.00,
+    "delivery_time_mins": 30,
+    "tags": ["asian", "seafood", "contains-peanuts", "contains-shellfish"],
+    "status": "active"
+  },
+  {
+    "id": "dish_18",
+    "restaurant": "Green Bowl Express",
+    "name": "Vegan Falafel Wrap",
+    "description": "Baked crispy chickpea falafels wrapped in a whole wheat tortilla with lettuce, tomatoes, pickles, and tahini sauce.",
+    "price": 26.50,
+    "delivery_time_mins": 20,
+    "tags": ["vegan", "lactose-free", "plant-protein", "fast-delivery"],
+    "status": "active"
+  },
+  {
+    "id": "dish_19",
+    "restaurant": "Steakhouse Prime",
+    "name": "Ribeye Steak with Garlic Butter",
+    "description": "300g premium grilled ribeye steak served with rustic fries and house chimichurri. Juicy and rich.",
+    "price": 89.00,
+    "delivery_time_mins": 35,
+    "tags": ["beef", "high-protein", "indulgent", "meat-lover"],
+    "status": "active"
+  },
+  {
+    "id": "dish_20",
+    "restaurant": "Açai & More",
+    "name": "Amazonian Açai Bowl (500ml)",
+    "description": "Pure organic açai purée layered with sliced bananas, strawberries, granola, and a drizzle of condensed milk.",
+    "price": 25.00,
+    "delivery_time_mins": 15,
+    "tags": ["dessert", "energy", "vegetarian", "refreshing"],
+    "status": "active"
+  },
+  {
+    "id": "dish_21",
+    "restaurant": "Sabor Brasileiro",
+    "name": "Traditional Feijoada Box",
+    "description": "Slow-cooked black beans with pork cuts, served alongside white rice, collard greens, orange slices, and cassava flour farofa.",
+    "price": 42.90,
+    "delivery_time_mins": 40,
+    "tags": ["brazilian", "comfort-food", "pork", "traditional"],
+    "status": "active"
+  },
+  {
+    "id": "dish_22",
+    "restaurant": "Soup & Co. (EXPIRED PROMO)",
+    "name": "Winter Pumpkin Cream Soup",
+    "description": "Velvety roasted pumpkin soup infused with ginger and rosemary, served with garlic croutons. [NOTE: Winter seasonal promo code EXPIRED]",
+    "price": 28.00,
+    "delivery_time_mins": 25,
+    "tags": ["soup", "vegetarian", "comfort-food", "expired-promo"],
+    "status": "active"
+  },
+  {
+    "id": "dish_23",
+    "restaurant": "Sweet & Joy Bakery",
+    "name": "Vegan Dark Chocolate Cake Slice",
+    "description": "Moist sponge cake made with organic cocoa, coconut oil, and flaxseed. 100% plant-based and dairy-free.",
+    "price": 16.50,
+    "delivery_time_mins": 15,
+    "tags": ["dessert", "vegan", "lactose-free", "sweet"],
+    "status": "active"
+  },
+  {
+    "id": "dish_24",
+    "restaurant": "Quick Bite Express",
+    "name": "Turkey & Swiss Whole Grain Sandwich",
+    "description": "Sliced smoked turkey breast, Swiss cheese, crisp lettuce, and honey mustard on multi-grain bread.",
+    "price": 21.90,
+    "delivery_time_mins": 15,
+    "tags": ["sandwich", "fast-delivery", "light", "poultry"],
+    "status": "active"
+  },
+  {
+    "id": "dish_25",
+    "restaurant": "Mediterranean Delights",
+    "name": "Greek Grilled Lamb Gyro",
+    "description": "Tender spiced lamb slices wrapped in warm pita bread with tzatziki sauce, red onions, and tomatoes.",
+    "price": 39.00,
+    "delivery_time_mins": 30,
+    "tags": ["mediterranean", "lamb", "contains-lactose", "savory"],
+    "status": "active"
   }
 ]
