@@ -23,16 +23,10 @@ This project simulates an AI-powered conversational intent filter that sits betw
 
 The pipeline runs 100% locally on standard consumer hardware, ensuring zero data leakage and minimal operational costs.
 
-```mermaid
-graph TD
-    A[User Natural Language Query] -->|Input| B(Vector Store / ChromaDB)
-    subgraph Local RAG Pipeline
-        B -->|Semantic Similarity Search| C[Top Relevant Menu Items]
-        C -->|Retrieved Context + Prompt| D[Ollama Local Engine]
-        D -->|Qwen 2.5 (3B) Inference| E[Friendly & Structured Recommendation]
-    end
-    E --> F[User Interface / Delivery App]
+### 1. Data Architecture
+![System and Data Architecture](docs/Data%20-%20FoodLLM.png)
 
-
+### 2. Runtime Sequence
+![Sequence Diagram](docs/Sequence%20-%20FoodLLM.jpg)
 
 > **⚠️ Disclaimer:** Este é um **projeto pessoal de portfólio e estudos**, sem fins lucrativos ou vínculo comercial com qualquer empresa de delivery. O objetivo do repositório é exclusivamente validar habilidades técnicas em Inteligência Artificial Generativa, Engenharia de Dados e arquiteturas RAG (Retrieval-Augmented Generation).
